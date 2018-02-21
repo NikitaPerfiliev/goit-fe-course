@@ -2,10 +2,10 @@
   margin: 0;
 }
 
-p {
+.menu-item-text {
   width: 400px;
 }
 
-h2 {
+.menu-item-header {
   font-size: 100%;
 }
