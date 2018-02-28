@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+  background-color: #b3636b;
+  font-family: "Playfair Display", serif;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-item-link {
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+  border-right: 1px solid #ffc3c9;
+  border-left: 1px solid #ffc3c9;
+  padding: 20px;
+  background-color: #af5860;
+  margin-right: -5px;
+}
+
+.menu-item-link:hover {
+  background-color: #722129;
+}
