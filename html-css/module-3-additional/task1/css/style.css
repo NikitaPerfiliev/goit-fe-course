@@ -3,9 +3,12 @@
   padding: 0;
 }
 
-.menu {
-  list-style: none;
+.header {
   text-align: center;
+}
+
+.menu {
+  display: inline-block;
   background-color: #b3636b;
   font-family: "Playfair Display", serif;
 }
