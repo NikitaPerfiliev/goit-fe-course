@@ -41,13 +41,12 @@
 
 .main-content {
   margin-top: 100px;
+  text-align: center;
 }
 
 .post {
   margin-left: 150px;
   width: 900px;
-  /* Negative margin-bottom for positioning */
-  margin-bottom: -77px;
 }
 
 .post-list {
@@ -66,6 +65,10 @@
 .left-item {
   margin-right: 56px;
   margin-bottom: 114px;
+}
+
+.last-row {
+  margin-bottom: 36px;
 }
 
 .post-list-item-image {
@@ -92,9 +95,8 @@
   color: #626262;
 }
 
-/* The button can be centered, but the indents are made as on the layout */
 .load-more-button {
-  margin-left: 507px;
+  display: inline-block;
   font-family: "Playfair Display", serif;
   padding: 15px 33px;
   font-size: 20px;
@@ -103,6 +105,7 @@
   border: 1px solid #626262;
   border-radius: 0;
   background-color: transparent;
+  margin-bottom: 20px;
 }
 
 .load-more-button:focus {
