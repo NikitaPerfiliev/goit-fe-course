@@ -6,6 +6,8 @@
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  padding-top: 73px;
+  padding-bottom: 20px;
 }
 
 .page-header {
@@ -14,7 +16,6 @@
 
 .header {
   text-align: center;
-  margin-top: 73px;
 }
 
 .menu {
@@ -24,7 +25,7 @@
 
 .menu-item {
   display: inline-block;
-  margin: 0 51px;
+  padding: 0 51px;
 }
 
 .menu-item-link {
@@ -42,11 +43,12 @@
 .main-content {
   margin-top: 100px;
   text-align: center;
+  padding: 0 150px;
 }
 
 .post {
-  margin-left: 150px;
   width: 900px;
+  margin-bottom: 37px;
 }
 
 .post-list {
@@ -62,13 +64,13 @@
   border: 0px solid black;
 }
 
-.left-item {
-  margin-right: 56px;
-  margin-bottom: 114px;
+.post-list-item:nth-of-type(2n) {
+  padding-left: 56px;
+  padding-bottom: 114px;
 }
 
-.last-row {
-  margin-bottom: 36px;
+.post-list-item:nth-last-of-type(1) {
+  padding-bottom: 0px;
 }
 
 .post-list-item-image {
@@ -105,7 +107,6 @@
   border: 1px solid #626262;
   border-radius: 0;
   background-color: transparent;
-  margin-bottom: 20px;
 }
 
 .load-more-button:focus {
