@@ -11,23 +11,27 @@
   display: inline-block;
   background-color: #b3636b;
   font-family: "Playfair Display", serif;
+  font-size: 0;
 }
 
 .menu-item {
   display: inline-block;
+  border-right: 1px solid #ffffff;
 }
 
 .menu-item-link {
   text-decoration: none;
   display: block;
   color: #ffffff;
-  border-right: 1px solid #ffc3c9;
-  border-left: 1px solid #ffc3c9;
   padding: 20px;
   background-color: #af5860;
-  margin-right: -5px;
+  font-size: 14px;
 }
 
 .menu-item-link:hover {
   background-color: #722129;
+}
+
+.menu-item:first-of-type {
+  border-left: 1px solid #ffffff;
 }

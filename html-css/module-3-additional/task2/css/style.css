@@ -12,7 +12,7 @@
 .post {
   font-family: "Playfair Display", serif;
   display: inline-block;
-  margin: 35px 22px;
+  padding: 35px 22px;
 }
 
 .post-image {
