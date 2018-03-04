@@ -62,18 +62,18 @@
   border: 0px solid black;
 }
 
-.post-list-item:nth-of-type(2n) {
-  margin-left: 56px;
+.post-list-item:nth-of-type(odd) {
+  margin-right: 56px;
   margin-bottom: 114px;
 }
 
-.post-list-item:nth-last-of-type(1) {
+.post-list-item:nth-last-child(-n+2) {
   margin-bottom: 0px;
 }
 
 .post-list-item-image {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .post-list-item-category {
