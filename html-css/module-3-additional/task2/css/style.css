@@ -16,6 +16,7 @@
 }
 
 .post-image {
+  display: block;
   width: 425px;
   height: 283px;
   margin-bottom: 23px;

@@ -72,6 +72,7 @@
 }
 
 .post-list-item-image {
+  display: block;
   margin-bottom: 25px;
 }
 

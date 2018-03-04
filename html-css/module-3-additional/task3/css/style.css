@@ -21,10 +21,11 @@
   height: 485px;
   width: calc(50% - 54px);
   vertical-align: top;
-  padding-left: 35px;
+  margin-left: 35px;
 }
 
 .post-list-item-image {
+  display: block;
   width: 425px;
   height: 283px;
   margin-bottom: 23px;
