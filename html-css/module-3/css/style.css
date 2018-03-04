@@ -63,12 +63,12 @@
 }
 
 .post-list-item:nth-of-type(2n) {
-  padding-left: 56px;
-  padding-bottom: 114px;
+  margin-left: 56px;
+  margin-bottom: 114px;
 }
 
 .post-list-item:nth-last-of-type(1) {
-  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .post-list-item-image {
