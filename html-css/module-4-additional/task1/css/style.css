@@ -28,20 +28,14 @@
 }
 
 .menu-item-link {
+  display: block;
   text-decoration: none;
-  display:table-cell;
   color: #ffffff;
   background-color: #af5860;
   font-size: 14px;
-  text-align: center;
-  vertical-align: middle;
   padding: 20px 20px;
 }
 
 .menu-item-link:hover {
   background-color: #722129;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 63fa570c00c1057fc39fbe0aace4f0013e5395b9
