@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  counter-reset: roman-numerals;
+  padding: 10px;
+}
+
+.list-item {
+  counter-increment: roman-numerals;
+}
+
+.list-item:before {
+  /* make square */
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+   /* make square */
+  border: 1px solid black;
+  content: counter(roman-numerals, upper-roman);
+  text-align: center;
+  margin-right: 5px;
+   /* vertical center alignment taking border into account*/
+  line-height: 32px;
+   /* vertical center alignment taking border into account*/
+  margin-bottom: 5px;
+}

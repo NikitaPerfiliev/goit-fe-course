@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 10px;
+}
+
+.list-item::before {
+  content: '\2192';
+}
