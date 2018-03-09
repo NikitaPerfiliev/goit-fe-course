@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  color: #FFFFFF;
+  width: 100px;
+}
+
+.list-item:nth-of-type(3n+1) {
+  background: #88292F
+}
+
+.list-item:nth-of-type(3n+2) {
+  background: #5DB7DE;
+}
+
+.list-item:nth-of-type(3n+3) {
+  background: #0E1116;
+}
