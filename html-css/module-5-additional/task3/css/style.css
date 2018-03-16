@@ -59,7 +59,8 @@
   color: #ffffff;
   font-weight: bold;
   font-size: 18px;
-  display: inline-block;
+  display: block;
+  width: 100%
 }
 
 .submenu {
@@ -83,5 +84,5 @@
   font-weight: bold;
   font-size: 18px;
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
