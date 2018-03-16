@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.main-div {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), transparent),
+    url(../img/priroda_1920x1200.jpg);
+  background-size: cover;
+}
+
+.main-div:hover {
+  background: url(../img/priroda_1920x1200.jpg);
+  background-size: cover;
+}
