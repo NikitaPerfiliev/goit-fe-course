@@ -309,26 +309,28 @@ main {
   width: 100%;
 }
 
-.item-hover-list-item:last-of-type::before {
+.item-hover-list-item:last-of-type > .item-hover-list-item-button::before {
   font-family: "Pe-icon-7-stroke";
   content: "\e66e";
   font-size: 30px;
-  position: absolute;
   width: 50px;
   height: 50px;
-  text-align: center;
+  display: block;
   line-height: 50px;
   color: #ffffff;
+  float: left;
 }
 
 .item-hover-list-item:last-of-type > .item-hover-list-item-button {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  width: 100%;
-  padding-left: 50px;
   letter-spacing: calc(-20 * 14px / 1000);
+  white-space: nowrap;
+  width: 100%;
+  line-height: 50px;
 }
+
 
 .collection-list-item-image {
   display: block;
