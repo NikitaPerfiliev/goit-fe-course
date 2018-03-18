@@ -264,8 +264,8 @@ main {
   text-decoration: none;
   border-style: none;
   outline: 1px solid white;
-  height: 48px;
-  width: 48px;
+  height: 50px;
+  width: 50px;
 }
 
 .item-hover-list-item-button:hover {
