@@ -234,7 +234,7 @@ main {
   background: linear-gradient(0deg, transparent, rgba(0, 0, 2, 0.5) 0%);
   left: 10px;
   top: 10px;
-  display: none;
+  /* display: none; */
 }
 
 .item-hover-list-wrap {
