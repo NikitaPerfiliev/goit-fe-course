@@ -178,6 +178,7 @@ main {
 
 .collection {
   padding-top: 80px;
+  padding-bottom: 70px;
 }
 
 .collection-header {
@@ -217,10 +218,6 @@ main {
   margin-right: 30px;
   margin-bottom: 30px;
   position: relative;
-}
-
-.collection-list-item:last-of-type {
-  margin-bottom: 100px;
 }
 
 .collection-list-item:nth-of-type(4n) {
@@ -330,7 +327,6 @@ main {
   width: 100%;
   line-height: 50px;
 }
-
 
 .collection-list-item-image {
   display: block;
