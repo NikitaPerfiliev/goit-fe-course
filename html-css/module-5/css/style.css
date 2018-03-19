@@ -17,7 +17,7 @@
 
 .header,
 .collection,
-.slider {
+.slider-button-wrap {
   width: 1110px;
   margin: 0 auto;
 }
@@ -113,10 +113,10 @@ main {
 
 .slider-slides-item-content {
   /* taken from psd css */
-  width: 738px;
-  height: 98px;
+  width: 740px;
   line-height: 1.367; 
   /* taken from psd css */
+  height: auto;
   text-align: left;
   position: absolute;
   top: 50%;
@@ -142,6 +142,14 @@ main {
   font-size: 24px;
   letter-spacing: calc(-20 * 24px / 1000);
   text-transform: uppercase;
+}
+
+.slider-button-wrap {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .slider-button {
@@ -275,11 +283,13 @@ main {
 }
 
 .item-hover-list-item-button:hover {
-  background-color: #323232;
+
+  background-color: #1abc9c;
+  outline: none;
 }
 
 .item-hover-list-item-button:active {
-  background-color: #1abc9c;
+  background-color: #ff7200;
   outline: none;
 }
 
@@ -313,6 +323,7 @@ main {
 .item-hover-list-item:last-of-type {
   bottom: 0px;
   width: 100%;
+  background-color: #323232;
 }
 
 .item-hover-list-item:last-of-type > .item-hover-list-item-button::before {
