@@ -156,6 +156,10 @@ main {
   outline: none;
 }
 
+.slider-button:hover {
+  background-color: rgba(78, 198, 171, 0.8);
+}
+
 .slider-button:active {
   background-color: rgb(26, 188, 156);
 }
