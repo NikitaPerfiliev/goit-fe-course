@@ -24,12 +24,12 @@
   font-size: 30px;
   text-decoration: none;
   color: #95e1d3;
+  transition: color 200ms linear;
 }
 
 .header-logo:hover {
   color: #f38181;
-  transition-duration: 200ms;
-  transition-timing-function: linear;
+  transition: color 200ms linear;
 }
 
 .header-nav {
@@ -46,13 +46,14 @@
   line-height: 1.2;
   padding-bottom: 10px;
   border-bottom: 3px solid transparent;
+  transition: all 200ms linear;
 }
 
 .header-nav-link:hover {
   color: #f38181;
   border-bottom: 3px solid #f38181;
   transition-duration: 200ms;
-  transition-timing-function: linear;
+  transition: all 200ms linear;
 }
 
 .header-nav-link:active {
@@ -214,8 +215,28 @@ main {
   transition: all 200ms linear;
 }
 
-.team-list-item-img-hover:hover .team-list-item-img-cover {
+.team-list-item-img-hover:hover {
+  background: #95e1d3;
+  transition: all 200ms linear;
+}
+
+.team-list-item-img-hover-cover {
   position: absolute;
+  width: 380px;
+  height: 470px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(
+    0deg,
+    rgba(252, 227, 138, 0.9),
+    rgba(243, 129, 129, 0.9)
+  );
+  transition: all 200ms linear;
+}
+
+.team-list-item-img-hover:hover .team-list-item-img-hover-cover {
   top: -10px;
   left: -10px;
   background: linear-gradient(
@@ -225,16 +246,14 @@ main {
   );
   z-index: 2;
   opacity: 1;
+  transition: all 200ms linear;
 }
 
 .team-list-item-img {
   top: 0;
   left: 0;
+  position: absolute;
   transition: all 200ms linear;
-}
-
-.team-list-item-img-hover:hover {
-  background: #95e1d3;
 }
 
 .team-list-item-img-hover:hover .team-list-item-img {
@@ -242,33 +261,27 @@ main {
   top: -10px;
   left: -10px;
   z-index: 1;
-}
-
-.team-list-item-img-hover:hover .team-list-item-img-hover-list {
-  display: flex;
-  visibility: visible;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
-  opacity: 1;
-}
-
-.team-list-item-img-cover {
-  position: absolute;
-  width: 380px;
-  height: 470px;
-  opacity: 0;
-  transition: opacity 200ms linear;
+  transition: all 200ms linear;
 }
 
 .team-list-item-img-hover-list {
+  display: flex;
   position: absolute;
   visibility: hidden;
   top: 0px;
   opacity: 0;
-  transition: opacity 200ms linear;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 200ms linear;
+}
+
+.team-list-item-img-hover:hover .team-list-item-img-hover-list {
+  visibility: visible;
+  position: absolute;
+  z-index: 3;
+  opacity: 1;
+  transition: all 200ms linear;
 }
 
 .team-list-item-img-hover-list-item {
@@ -276,6 +289,7 @@ main {
   height: 56px;
   background-color: #fce38a;
   border-right: 1px solid #f38181;
+  transition: background-color 200ms linear;
 }
 
 .team-list-item-img-hover-list-item:last-of-type {
@@ -284,8 +298,7 @@ main {
 
 .team-list-item-img-hover-list-item:hover {
   background-color: #95e1d3;
-  transition-duration: 200ms;
-  transition-timing-function: linear;
+  transition: background-color 200ms linear;
 }
 
 .team-list-item-img-hover-list-item-link {
@@ -362,12 +375,12 @@ main {
 .footer-text-link {
   text-decoration: none;
   color: #333333;
+  transition: color 200ms linear;
 }
 
 .footer-text-link:hover {
   color: #f38181;
-  transition-duration: 200ms;
-  transition-timing-function: linear;
+  transition: color 200ms linear;
 }
 
 .footer-subscribe {
@@ -398,6 +411,12 @@ main {
   color: #ffffff;
   padding: 10px 0;
   min-width: 150px;
+  transition: background-color 200ms linear;
+}
+
+.footer-subscribe-button:hover {
+  background-color: #f38181;
+  transition: background-color 200ms linear;
 }
 
 .footer-subscribe-email::-webkit-input-placeholder {
@@ -411,12 +430,6 @@ main {
 }
 .footer-subscribe-email:-moz-placeholder {
   color: #cccccc;
-}
-
-.footer-subscribe-button:hover {
-  background-color: #f38181;
-  transition-duration: 200ms;
-  transition-timing-function: linear;
 }
 
 .footer-subscribe-button:active {
