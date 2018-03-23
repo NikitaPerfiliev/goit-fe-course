@@ -416,6 +416,7 @@ main {
 
 .footer-subscribe-button:hover {
   background-color: #f38181;
+  cursor: pointer;
   transition: background-color 200ms linear;
 }
 
