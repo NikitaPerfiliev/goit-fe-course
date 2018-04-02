@@ -1,37 +1,37 @@
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/montserrat-v12-latin-regular.woff') format('woff'), 
+  src: url("../fonts/montserrat-v12-latin-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/montserrat-v12-latin-700.woff') format('woff'),
+  src: url("../fonts/montserrat-v12-latin-700.woff") format("woff");
 }
 
 /* The license allows to use the font for non-commercial purposes */
 @font-face {
-  font-family: 'WisdomScriptAJ';
+  font-family: "WisdomScriptAJ";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/WisdomScriptAJ.woff') format('woff');
+  src: url("../fonts/WisdomScriptAJ.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Roboto Slab';
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
+  src: url("../fonts/RobotoSlab-Regular-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Droid Serif';
+  font-family: "Droid Serif";
   font-style: italic;
   font-weight: 400;
-  src: url('../fonts/DroidSerif-Italic-webfont.woff') format('woff'),
+  src: url("../fonts/DroidSerif-Italic-webfont.woff") format("woff");
 }
 
 * {
@@ -55,14 +55,14 @@
 }
 
 .header-logo {
-  font-family: 'WisdomScriptAJ';
+  font-family: "WisdomScriptAJ";
   font-size: 26px;
   text-decoration: none;
   color: #fed136;
 }
 
 .header-nav-link {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   text-decoration: none;
   color: #222222;
@@ -85,7 +85,7 @@
 }
 
 .services-header {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 40px;
   font-weight: bold;
   color: #222222;
@@ -95,7 +95,7 @@
 }
 
 .services-post-header {
-  font-family: 'Droid Serif';
+  font-family: "Droid Serif";
   font-size: 16px;
   font-style: italic;
   color: #777777;
@@ -117,22 +117,22 @@
 }
 
 .services-list-item:nth-of-type(1)::before {
-  content: url('../img/icon1.png');
+  content: url("../img/icon1.png");
   padding-bottom: 24px;
 }
 
 .services-list-item:nth-of-type(2)::before {
-  content: url('../img/icon2.png');
+  content: url("../img/icon2.png");
   padding-bottom: 24px;
 }
 
 .services-list-item:nth-of-type(3)::before {
-  content: url('../img/icon3.png');
+  content: url("../img/icon3.png");
   padding-bottom: 24px;
 }
 
 .services-list-item-header {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: bold;
   color: #222222;
@@ -140,7 +140,7 @@
 }
 
 .services-list-item-text {
-  font-family: 'Roboto Slab';
+  font-family: "Roboto Slab";
   font-size: 14px;
   color: #777777;
   text-align: center;
@@ -151,11 +151,11 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  background: #222222 url('../img/map.png') no-repeat 100% 85%;
+  background: #222222 url("../img/map.png") no-repeat 100% 85%;
 }
 
 .contact-header {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
@@ -165,7 +165,7 @@
 }
 
 .contact-post-header {
-  font-family: 'Droid Serif';
+  font-family: "Droid Serif";
   font-size: 16px;
   font-style: italic;
   color: #777777;
@@ -193,7 +193,8 @@
   justify-content: space-between;
 }
 
-.contact-form-name, .contact-form-email,
+.contact-form-name,
+.contact-form-email,
 .contact-form-subject {
   min-height: 52px;
   border: 0;
@@ -201,15 +202,16 @@
   border-radius: 5px;
   padding-left: 20px;
   box-sizing: border-box;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: bold;
   color: #000000;
 }
 
-.contact-form-name::placeholder, .contact-form-email::placeholder,
+.contact-form-name::placeholder,
+.contact-form-email::placeholder,
 .contact-form-subject::placeholder {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: bold;
   color: #bbbbbb;
@@ -223,7 +225,7 @@
   border-radius: 5px;
   resize: none;
   box-sizing: border-box;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: bold;
   color: #000000;
@@ -231,20 +233,22 @@
 }
 
 .contact-form-message::placeholder {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: bold;
   color: #bbbbbb;
 }
 
 /* I use box-shadow against outline to get radius on corners */
-.contact-form-name:valid, .contact-form-email:valid,
+.contact-form-name:valid,
+.contact-form-email:valid,
 .contact-form-message:valid {
   box-shadow: 0 0 5px 3px #58cf68;
 }
 
 /* I don't want to use invalid when input is empty */
-.contact-form-name:focus:invalid, .contact-form-email:focus:invalid,
+.contact-form-name:focus:invalid,
+.contact-form-email:focus:invalid,
 .contact-form-message:focus:invalid {
   box-shadow: 0 0 5px 3px #ff0000;
 }
@@ -255,7 +259,7 @@
   outline: 0;
   border-radius: 5px;
   background-color: #fed136;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
@@ -263,4 +267,3 @@
   margin-bottom: 116px;
   cursor: pointer;
 }
-
