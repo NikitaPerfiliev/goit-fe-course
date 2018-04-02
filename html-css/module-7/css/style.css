@@ -247,9 +247,9 @@
 }
 
 /* I don't want to use invalid when input is empty */
-.contact-form-name:focus:invalid,
-.contact-form-email:focus:invalid,
-.contact-form-message:focus:invalid {
+.contact-form-name:invalid:not(:placeholder-shown),
+.contact-form-email:invalid:not(:placeholder-shown),
+.contact-form-message:invalid:not(:placeholder-shown) {
   box-shadow: 0 0 5px 3px #ff0000;
 }
 
