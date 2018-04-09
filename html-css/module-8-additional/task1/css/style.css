@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0% auto;
+}
+
+.yellow{
+  width: 100%;
+  height: 100px;
+  background: #ffd900;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  padding: 0.625rem 0;
+}
+
+.blue {
+  width: calc(520 / 960 * 100%);
+  height: 100%;
+  background: #00ccff;
+}
+
+.grey {
+  width: calc(200 / 960 * 100%);
+  height: 100%;
+  background: #575756;
+}
+
+.red {
+  width: calc(200 / 960 * 100%);
+  height: 100%;
+  background: #ff0000;
+}
+
+.green {
+  width: 100%;
+  height: 100px;
+  background: #037709;
+}
+
