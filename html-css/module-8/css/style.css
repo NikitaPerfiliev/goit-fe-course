@@ -169,7 +169,7 @@ html {
 
 .partners-list-item:nth-child(4) > .partners-list-item-link::after {
   content: "";
-  background: url("../img/Icon-Paper Airplane-M.png") no-repeat;
+  background: url("../img/Icon-Paper-Airplane-M.png") no-repeat;
   background-position: 7px 8px;
   position: absolute;
   bottom: -4px;
