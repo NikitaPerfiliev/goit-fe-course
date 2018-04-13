@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-item {
+  height: 100px;
+  background-color: #f7d6a1;
+}
+
+[class*='col-']:nth-of-type(2) > .grid-item {
+  background-color: #f79fab;
+}

@@ -231,7 +231,7 @@ html {
 }
 
 @media (min-width: 768px) {
-  .container { 
+  .container {
     width: 670px;
   }
 
@@ -295,7 +295,7 @@ html {
     margin-right: 2.985075%;
   }
 
-  .partners-list-item:nth-last-of-type(-n+2) {
+  .partners-list-item:nth-last-of-type(-n + 2) {
     margin-bottom: 0;
   }
 
@@ -305,14 +305,14 @@ html {
 }
 
 @media (min-width: 1440px) {
-  .container { 
+  .container {
     width: 940px;
   }
 
   .find-partner-header {
     width: 60%;
   }
-  
+
   .find-partner-link {
     width: 23.93617%;
     height: 40px;
@@ -325,7 +325,7 @@ html {
     justify-content: space-between;
     padding-bottom: 3.8rem;
   }
-  
+
   .partners-list-item {
     width: 25%;
   }

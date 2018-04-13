@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background-color: #fbf188;
+  height: 100px;
+}
+
+.sidebar {
+  background-color: #b9e88b;
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .content,
+  .sidebar {
+    height: 200px;
+  }
+}
