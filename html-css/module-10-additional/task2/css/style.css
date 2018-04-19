@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-image {
+  width: 400px;
+  height: 200px;
+  background: url('https://placeimg.com/400/200/nature') no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .bg-image {
+    background: url('https://placeimg.com/800/400/people') no-repeat;
+  }
+}

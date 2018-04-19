@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.picture {
+  display: block;
+  max-width: 400px;
+  height: auto;
+}
+
+.picture-image {
+  display: block;
+}
