@@ -14,4 +14,5 @@
 .main-header__link--no-effects,
 .main-nav__link--no-effects {
   text-decoration: none;
+  color: #000000;
 }
