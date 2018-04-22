@@ -6,13 +6,13 @@
       from(rgba(252, 227, 138, 0.9)),
       to(rgba(243, 129, 129, 0.9))
     ),
-    url("/img/eagle-min.jpg") center;
+    url("../../img/eagle-min.jpg") center;
   background: linear-gradient(
       0deg,
       rgba(252, 227, 138, 0.9),
       rgba(243, 129, 129, 0.9)
     ),
-    url("/img/eagle-min.jpg") center;
+    url("../../img/eagle-min.jpg") center;
   background-size: cover;
 }
 
