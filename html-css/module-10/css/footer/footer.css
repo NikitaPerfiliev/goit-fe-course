@@ -1,0 +1,88 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  padding: 10px 0;
+  border-top: 1px solid #cccccc;
+}
+
+.footer__text,
+.footer-subscribe-form__button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.footer__text,
+.footer__link {
+  color: #333333;
+}
+
+.footer__text {
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.footer__link {
+  text-decoration: none;
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+}
+
+.footer__link--hover:hover {
+  color: #f38181;
+  -webkit-transition: color 200ms linear;
+  transition: color 200ms linear;
+}
+
+.footer-subscribe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 380px;
+}
+
+.footer-subscribe-form__placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  width: 218px;
+  padding-left: 10px;
+  color: #cccccc;
+  border: 1px solid #cccccc;
+  border-right: 0px;
+  outline: 0;
+}
+
+.footer-subscribe-form__button {
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  background-color: #95e1d3;
+  color: #ffffff;
+  padding: 12px 0;
+  min-width: 150px;
+  letter-spacing: -0.4px;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.footer-subscribe-form__button--hover:hover {
+  background-color: #f38181;
+  cursor: pointer;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.footer-subscribe-form__placeholder::-webkit-input-placeholder,
+.footer-subscribe-form__placeholder:-ms-input-placeholder,
+.footer-subscribe-form__placeholder::placeholder {
+  color: #cccccc;
+}
