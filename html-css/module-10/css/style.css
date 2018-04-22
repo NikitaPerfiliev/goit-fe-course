@@ -1,6 +1,6 @@
-@import "/css/common/common.css";
-@import "/css/header/header.css";
-@import "/css/creative-template/creative-template.css";
-@import "/css/services/services.css";
-@import "/css/team/team.css";
-@import "/css/footer/footer.css";
+@import "../css/common/common.css";
+@import "../css/header/header.css";
+@import "../css/creative-template/creative-template.css";
+@import "../css/services/services.css";
+@import "../css/team/team.css";
+@import "../css/footer/footer.css";
