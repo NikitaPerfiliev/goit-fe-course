@@ -11,8 +11,8 @@
   justify-content: space-between;
 }
 
-.main-header__link--no-effects,
-.main-nav__link--no-effects {
+.header__logo,
+.header__link {
   text-decoration: none;
   color: #000000;
 }
