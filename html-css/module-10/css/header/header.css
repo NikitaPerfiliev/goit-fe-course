@@ -25,7 +25,7 @@
   transition: color 200ms linear;
 }
 
-.header__logo--hover:hover {
+.header__logo:hover {
   color: #fce38a;
   -webkit-transition: color 200ms linear;
   transition: color 200ms linear;
@@ -48,7 +48,7 @@
   margin-left: 43px;
 }
 
-.header__link--hover:hover {
+.header__link:hover {
   color: #fce38a;
   border-bottom: 3px solid #fce38a;
   -webkit-transition: all 200ms linear;
@@ -81,7 +81,7 @@
   transition: all 200ms linear;
 }
 
-.header__icon--hover:hover {
+.header__icon:hover {
   fill: #fce38a;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;

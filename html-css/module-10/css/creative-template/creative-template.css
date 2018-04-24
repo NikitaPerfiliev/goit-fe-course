@@ -44,7 +44,7 @@
   transition: all 200ms linear;
 }
 
-.creative-template__link--hover:hover {
+.creative-template__link:hover {
   color: #fce38a;
   border-color: #fce38a;
   -webkit-transition: all 200ms linear;

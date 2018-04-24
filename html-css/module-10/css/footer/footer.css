@@ -13,7 +13,7 @@
 }
 
 .footer__text,
-.footer-subscribe-form__button {
+.subscribe-form__button {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
@@ -34,20 +34,20 @@
   transition: color 200ms linear;
 }
 
-.footer__link--hover:hover {
+.footer__link:hover {
   color: #f38181;
   -webkit-transition: color 200ms linear;
   transition: color 200ms linear;
 }
 
-.footer-subscribe-form {
+.subscribe-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   max-width: 380px;
 }
 
-.footer-subscribe-form__placeholder {
+.subscribe-form__placeholder {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: italic;
@@ -60,7 +60,7 @@
   outline: 0;
 }
 
-.footer-subscribe-form__button {
+.subscribe-form__button {
   font-weight: bold;
   text-transform: uppercase;
   border: 0;
@@ -74,15 +74,15 @@
   transition: background-color 200ms linear;
 }
 
-.footer-subscribe-form__button--hover:hover {
+.subscribe-form__button:hover {
   background-color: #f38181;
   cursor: pointer;
   -webkit-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
 }
 
-.footer-subscribe-form__placeholder::-webkit-input-placeholder,
-.footer-subscribe-form__placeholder:-ms-input-placeholder,
-.footer-subscribe-form__placeholder::placeholder {
+.subscribe-form__placeholder::-webkit-input-placeholder,
+.subscribe-form__placeholder:-ms-input-placeholder,
+.subscribe-form__placeholder::placeholder {
   color: #cccccc;
 }
