@@ -1,0 +1,14 @@
+// Создать SASS миксин, который принимает 2 значения, размер шрифта и высоту строки. В место вызова должны подставляться font-size и line-height с передаными значениями.
+
+@mixin font($font-size:20px, $line-height:1.5) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+.text1 {
+  @include font;
+}
+
+.text2 {
+  @include font(40px, 3);
+}
