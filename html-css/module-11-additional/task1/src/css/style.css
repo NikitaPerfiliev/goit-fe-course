@@ -1,0 +1,8 @@
+body {
+  font-family: "Roboto", sans-serif; }
+
+p {
+  color: #424242;
+  font-size: 18px; }
+  p:hover {
+    color: #03a9f4; }

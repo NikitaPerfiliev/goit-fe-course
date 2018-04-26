@@ -1,0 +1,23 @@
+// Создать 4 SASS-переменные которые хранят следующие значения:
+
+// набор шрифтов страницы: Roboto, sans-serif
+// цвет текста: #424242
+// цвет акцента при ховере: #03A9F4
+// размер шрифта абзацев: 18px
+
+$page-font: "Roboto", sans-serif;
+$font-color: #424242;
+$hover-accent: #03a9f4;
+$font-size: 18px;
+
+body {
+  font-family: $page-font;
+}
+
+p {
+  color: $font-color;
+  font-size: $font-size;
+  &:hover {
+    color: $hover-accent;
+  }
+}
