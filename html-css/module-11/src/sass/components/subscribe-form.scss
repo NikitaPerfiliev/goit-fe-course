@@ -1,0 +1,42 @@
+.subscribe-form {
+  display: flex;
+  max-width: 380px;
+}
+
+.subscribe-form__placeholder {
+  font-family: $primary-font;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  width: 218px;
+  padding-left: 10px;
+  color: $form-placeholder-color;
+  border: 1px solid $form-placeholder-color;
+  border-right: 0px;
+  outline: 0;
+
+  &::-webkit-input-placeholder,
+  &:-ms-input-placeholder,
+  &::placeholder {
+    color: $form-placeholder-color;
+  }
+}
+
+.subscribe-form__button {
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  background-color: $primary-lightblue-color;
+  color: $primary-white-color;
+  padding: 12px 0;
+  min-width: 150px;
+  letter-spacing: -0.4px;
+  @extend %transition-200;
+
+  &:hover {
+    background-color: $primary-lightcoral-color;
+    cursor: pointer;
+    @extend %transition-200;
+  }
+}

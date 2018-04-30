@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 0;
+  border-top: 1px solid $main-text-color;
+}
+
+.footer__text,
+.subscribe-form__button {
+  font-family: $header-font;
+  font-size: 14px;
+}
+
+.footer__text,
+.footer__link {
+  color: $main-header-color;
+}
+
+.footer__text {
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.footer__link {
+  text-decoration: none;
+  @extend %transition-200;
+
+  &:hover {
+    color: $primary-lightcoral-color;
+    @extend %transition-200;
+  }
+}

@@ -1,0 +1,44 @@
+.cover-list {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  @include position(50%, 50%);
+  transform: translate(-50%, -50%);
+  @extend %transition-200;
+  @extend %nolist;
+}
+
+.cover-list__item {
+  @include square-size(55px);
+  background-color: $link-hover-main-color;
+  border-right: 1px solid $primary-lightcoral-color;
+  @extend %transition-200;
+
+  &:hover {
+    background-color: $primary-lightcoral-color;
+    @extend %transition-200;
+  }
+
+  &:hover .cover-list__icon {
+    fill: $primary-white-color;
+    @extend %transition-200;
+  }
+
+  &:last-of-type {
+    border-right: 0;
+  }
+}
+
+.cover-list__link {
+  @include square-size(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-list__icon {
+  @include square-size(26px);
+  fill: $primary-lightcoral-color;
+  @extend %transition-200;
+}

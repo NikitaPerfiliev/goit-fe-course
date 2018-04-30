@@ -1,0 +1,79 @@
+.wrapper {
+  @include img-gradient(
+    0deg,
+    rgba(252, 227, 138, 0.9),
+    rgba(243, 129, 129, 0.9),
+    "../../img/eagle-min.jpg",
+    center
+  );
+  background-size: cover;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @include img-gradient(
+      0deg,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9),
+      "../../img/eagle@2x-min.jpg",
+      center
+    );
+    background-size: cover;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  @extend %margin-center;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.sections-preheader,
+.sections-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.sections-preheader {
+  font-family: $preheader-font;
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+
+.sections-header {
+  font-family: $header-font;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  &::after {
+    content: "";
+    width: 60px;
+    border-bottom: $sections-header-underline;
+    display: block;
+    @extend %margin-center;
+    padding-top: 35px;
+  }
+}
+
+.sections-text {
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 15px;
+  color: $main-text-color;
+  line-height: 1.6;
+}
+
+.list-item-header {
+  font-family: $header-font;
+  font-weight: 400;
+  font-size: 14px;
+  color: $main-header-color;
+  text-transform: uppercase;
+}

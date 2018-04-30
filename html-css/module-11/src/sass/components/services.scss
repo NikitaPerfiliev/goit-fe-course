@@ -1,0 +1,62 @@
+.services {
+  padding-top: 45px;
+  margin-bottom: 89px;
+}
+
+.services__header {
+  margin-bottom: 63px;
+}
+
+.services-list {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  @extend %nolist;
+}
+
+.services-list__item {
+  max-width: 350px;
+  padding-left: 65px;
+  margin-bottom: 96px;
+  box-sizing: border-box;
+  position: relative;
+
+  &:nth-last-of-type(-n + 3) {
+    margin-bottom: 0;
+  }
+
+  &::before {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    content: "";
+  }
+
+  &:nth-of-type(1)::before {
+    @include service-icon(url("../../img/alarm.svg"), 32px, 30.5px);
+  }
+
+  &:nth-of-type(2)::before {
+    @include service-icon(url("../../img/line-graph.svg"), 32px, 30.5px);
+  }
+
+  &:nth-of-type(3)::before {
+    @include service-icon(url("../../img/computer-ok.svg"), 31px, 28px);
+  }
+
+  &:nth-of-type(4)::before {
+    @include service-icon(url("../../img/book-open.svg"), 32px, 32px);
+  }
+
+  &:nth-of-type(5)::before {
+    @include service-icon(url("../../img/home.svg"), 32px, 30.5px);
+  }
+
+  &:nth-of-type(6)::before {
+    @include service-icon(url("../../img/image.svg"), 32px, 32px);
+  }
+}
+
+.services-list__header {
+  margin-bottom: 10px;
+}

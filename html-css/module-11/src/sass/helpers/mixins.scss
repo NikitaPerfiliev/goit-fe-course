@@ -1,0 +1,20 @@
+@mixin img-gradient ($deg, $from, $to, $url, $position) {
+  background: linear-gradient($deg, $from, $to), url($url), $position;
+}
+
+@mixin service-icon ($url, $width, $height) {
+  background: $url;
+  width: $width;
+  height: $height;
+}
+
+@mixin position ($top, $left) {
+  top: $top;
+  left: $left;
+}
+
+@mixin square-size ($width) {
+  width: $width;
+  $height: $width;
+  height: $height;
+}
